@@ -1,0 +1,35 @@
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin around{
+  align-items: center;
+display: flex;
+  justify-content: space-around;
+}
+@mixin btn{
+  padding: 6px 20px;
+  border-radius: 10px;
+  background: orange;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+@mixin button{
+  background: transparent;
+  padding: 7px 12px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  color: orange;
+}
+@mixin center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin log{
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}

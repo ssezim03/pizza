@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/media.css">
+
+
+</head>
+<body>
+<section id="burger">
+    <div class="container">
+        <div class="burger">
+            <input type="checkbox" id="burgerCheck" class="inputBurger">
+            <label for="burgerCheck" class="burgerLine"><i class="fa-solid fa-bars burgerIcon"></i></label>
+            <div class="burgerBlock">
+                <label for="burgerCheck"> <i class="fa-solid fa-xmark  burgerClose"></i></label>
+                <div class="menuBurger">
+                    <a href="">Меню</a>
+                    <a href="">Акции</a>
+                    <a href="">О нас</a>
+                    <a href="tel://+(996)-508-508-544">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header--block">
+                <div class="header--block__menu">
+                    <img src="./img/pizza.png/" alt="" class="header--block__img">
+                    <div class="header--block__menu--A">
+                        <a href="">Меню</a>
+                        <a href="">Акции</a>
+                        <a href="">О нас</a>
+                        <a href="tel://+(996)-508-508-544">Контакты</a>
+                    </div>
+                    <div class="header--block__menu--select">
+                        <select class="header--block__menu--select__kg">
+                            <option value="">Ru</option>
+                            <option value="">Kg</option>
+                            <option value="">Eng</option>
+                        </select>
+                        <button class="header--block__menu--select__btn">Вход</button>
+                        <div class="header--block__menu--select__icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="header--block__time">
+                    <div class="header--block__time--box">
+                        <h2><span id="time_span"></span></h2>
+                        <h2><span id="dateNow"></span></h2>
+                    </div>
+                    <input class="header--block__time--search" type="search" placeholder=" Поиск еды, десерты и т. д.">
+                    <div class="header--block__time--icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="hero">
+    <div class="marquee-infinite">
+        <div class="IMG">
+            <img src="./img/3.png/" alt="">
+            <img src="./img/2.png/" alt="">
+            <img src="./img/3.png/" alt="">
+            <img src="./img/2.png/" alt="">
+            <img src="./img/3.png/" alt="">
+        </div>
+    </div>
+    <div class="marquee-infinite">
+        <div class="pizza">
+            <h1>Пицца</h1>
+            <h1>Комбо</h1>
+            <h1>Фирменные роллы</h1>
+            <h1>Фирменные роллы</h1>
+            <h1>Сеты</h1>
+            <h1>Напитки</h1>
+            <h1>Десерты</h1>
+            <h1>Горячее</h1>
+            <h1>Пицца</h1>
+            <h1>Комбо</h1>
+            <h1>Фирменные роллы</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hero">
+
+
+        </div>
+    </div>
+</section>
+<section id="card">
+    <div class="container">
+        <div class="card">
+            <div class="card--block">
+                <h1 class="card--block__title">Выбрать блюда</h1>
+                <select class="card--block__select">
+                    <option value="">Фильтрация</option>
+                    <option value="">По цене</option>
+                    <option value="">По популярности</option>
+                    <option value="">По алфавиту</option>
+                    <option value="">Новинки</option>
+                </select>
+            </div>
+
+            <div class="card--menus">
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <div class="card--menu__new">weN</div>
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <div class="card--menu__new">weN</div>
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <div class="card--menu__new">weN</div>
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+                <div class="card--menu">
+                    <img class="card--menu__img" src="./img/Images.png/">
+                    <h2 class="card--menu__name">Папа Микс Ренч</h2>
+                    <p class="card--menu__title">Четыре любимых пиццы в одной: Цыпленок Рэнч, Ветчина и грибы, Четыре
+                        Сыра,
+                        Спайси Рэнч</p>
+                    <div class="card--menu__price">
+                        <h3>25см</h3>
+                        <h3>30см</h3>
+                        <h3>35см</h3>
+                    </div>
+                    <div class="card--menu__buttons">
+                        <button class="card--menu__button1">Традиционное</button>
+                        <button class="card--menu__button2">Тонкое</button>
+                    </div>
+                    <button class="card--menu__btn">В корзину за 660с</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="question">
+    <div class="container">
+        <div class="question">
+            <div class="question--accordion">
+                <details class="question--accordion__item">
+                    <summary class="question--accordion__title">Как сделать заказ?</summary>
+                    <p class="question--accordion__body">1. Войти или зарегистрироваться
+                        Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру
+                        телефона:Добавить товар в «Корзину»
+                        В карточке товара выберите подходящий размер и нажмите «Добавить в корзину»Перейти в корзину.
+                        Для продолжения оформления заказа перейдите в «Корзину».
+                        По клику на кнопку «Перейти в корзину» в карточке товара:</p>
+                </details>
+            </div>
+            <div class="question--accordion">
+                <details class="question--accordion__item">
+                    <summary class="question--accordion__title">Как оплатить?</summary>
+                    <p class="question--accordion__body">1. Войти или зарегистрироваться
+                        Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру
+                        телефона:Добавить товар в «Корзину»
+                        В карточке товара выберите подходящий размер и нажмите «Добавить в корзину»Перейти в корзину.
+                        Для продолжения оформления заказа перейдите в «Корзину».
+                        По клику на кнопку «Перейти в корзину» в карточке товара:</p>
+                </details>
+            </div>
+            <div class="question--accordion">
+                <details class="question--accordion__item">
+                    <summary class="question--accordion__title">Как оплатить?</summary>
+                    <p class="question--accordion__body">1. Войти или зарегистрироваться
+                        Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру
+                        телефона:Добавить товар в «Корзину»
+                        В карточке товара выберите подходящий размер и нажмите «Добавить в корзину»Перейти в корзину.
+                        Для продолжения оформления заказа перейдите в «Корзину».
+                        По клику на кнопку «Перейти в корзину» в карточке товара:</p>
+                </details>
+            </div>
+            <div class="question--accordion">
+                <details class="question--accordion__item">
+                    <summary class="question--accordion__title">Как оплатить?</summary>
+                    <p class="question--accordion__body">1. Войти или зарегистрироваться
+                        Оформить заказ можно только в личном кабинете. Войдите или зарегистрируйтесь по номеру
+                        телефона:Добавить товар в «Корзину»
+                        В карточке товара выберите подходящий размер и нажмите «Добавить в корзину»Перейти в корзину.
+                        Для продолжения оформления заказа перейдите в «Корзину».
+                        По клику на кнопку «Перейти в корзину» в карточке товара:</p>
+                </details>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <img src="./img/pizza.png/" alt="" class="footer--img">
+            <div class="footer--block">
+                <h1>Быстрые ссылки </h1>
+                <a href="">Акции </a>
+                <a href="">График работы </a>
+                <a href="tel://+(996)-508-508-544">Контакты</a>
+            </div>
+            <div class="footer--address">
+                <h1>Адрес</h1>
+                <map name="">Турусбекова 109/3</map>
+            </div>
+            <div class="footer--social">
+                <h1>Соц сети</h1>
+
+                    <a href="https://m.facebook.com/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="tel://+(996)-508-508-544">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://web.telegram.org/z/">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                    <a href="https://instagram.com/e1dar_19?igshid=YmMyMTA2M2Y=">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+            </div>
+            <div class="footer--visa">
+                <h1>Принимаем к оплате</h1>
+                <svg width="131" height="19" viewBox="0 0 131 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M0 9.30207V18.53L2.125 18.3183L4.25 18.1074L4.454 12.6636L4.65743 7.21982L6.154 12.6636C7.5701 17.8168 7.7384 18.1074 9.30637 18.1074C10.8777 18.1074 11.0381 17.827 12.423 12.6636L13.8833 7.21982L14.0477 12.8337L14.2126 18.4476H16.456H18.7V9.26124V0.0748525H16.1965C14.8195 0.0748525 13.2883 0.261303 12.7942 0.489262C12.2876 0.721984 11.3713 2.97503 10.6953 5.64589C10.0357 8.25482 9.3092 10.135 9.0814 9.82536C8.8536 9.51506 8.33567 7.73018 7.9305 5.85888C6.88557 1.02888 6.03047 0.0748525 2.7455 0.0748525H0V9.30207ZM20.9667 9.26124V18.4476H22.9874C26.0038 18.4476 26.7433 17.6787 28.9068 12.2914L30.8833 7.37157L31.1667 12.7391L31.45 18.1074L33.575 18.3183L35.7 18.53V9.26533V0L33.0083 0.207545L30.3167 0.415089L28.3333 5.31042C27.2425 8.00305 26.1585 10.2228 25.925 10.2438C25.6915 10.2649 25.5 7.98536 25.5 5.1784V0.0748525H23.2333H20.9667V9.26124ZM42.1277 0.555948C42.9845 0.821332 43.1369 1.41743 42.9743 3.87053C42.7352 7.48385 42.8553 7.56006 48.7798 7.56006C53.2236 7.56006 53.2667 7.54305 53.2667 5.80648C53.2667 4.77556 52.5838 3.23293 51.6103 2.06388C50.0463 0.18645 49.7057 0.078936 45.5186 0.153788C43.0791 0.197338 41.5537 0.378344 42.1277 0.555948ZM86.2773 0.474972C86.4603 0.694765 87.4503 1.3834 88.4765 2.00604C90.223 3.06485 90.436 3.59358 91.8068 10.282L93.2716 17.4269L95.2589 17.6304L97.2462 17.8338L99.9062 9.79406C101.369 5.37234 102.567 1.3766 102.567 0.914557C102.567 0.44367 101.853 0.0748525 100.942 0.0748525C99.4234 0.0748525 99.1984 0.453196 97.499 5.85888C96.4994 9.04009 95.5961 11.6429 95.4918 11.6429C95.3876 11.6429 95.0005 9.42252 94.6322 6.70947C94.2367 3.80181 93.5895 1.42695 93.0557 0.925444C92.1802 0.103432 85.6041 -0.334111 86.2773 0.474972ZM104.569 0.925444C104.442 1.39361 103.714 5.3737 102.949 9.7716L101.557 17.7672H103.382H105.206L106.473 10.4521C107.169 6.42911 107.878 2.44766 108.048 1.60592C108.318 0.264705 108.136 0.0748525 106.577 0.0748525C105.598 0.0748525 104.695 0.457959 104.569 0.925444ZM111.618 1.22621C109.701 2.80151 109.385 3.47246 109.375 5.99633C109.368 7.82136 109.785 8.52089 111.947 10.3064C114.131 12.1117 114.417 12.5962 113.81 13.4741C113.3 14.2117 112.41 14.4165 110.71 14.1865C108.646 13.9075 108.284 14.0559 108.015 15.2936C107.57 17.3398 108.323 17.9155 111.521 17.974C118.09 18.0924 120.215 11.419 114.942 7.22799C112.704 5.44991 112.627 5.2832 113.63 4.40266C114.31 3.80453 115.369 3.61876 116.564 3.88823C118.274 4.27337 118.433 4.1645 118.433 2.60485C118.433 1.66784 118.03 0.715177 117.537 0.487899C115.863 -0.283758 113.024 0.0707705 111.618 1.22621ZM124.038 0.896864C123.537 1.38 122.427 3.91953 121.571 6.53935C120.715 9.15917 119.535 12.7575 118.949 14.5349L117.883 17.7672H119.82C121.259 17.7672 121.849 17.4174 122.117 16.4062C122.395 15.3542 122.974 15.0453 124.667 15.0453C126.359 15.0453 126.938 15.3542 127.217 16.4062C127.468 17.3562 128.074 17.7672 129.224 17.7672C130.721 17.7672 130.842 17.5964 130.55 15.8959C128.049 1.32216 127.807 0.420533 126.358 0.216391C125.583 0.106835 124.539 0.413048 124.038 0.896864ZM125.808 7.38994C125.812 8.04456 125.969 9.27009 126.157 10.1118C126.451 11.4251 126.279 11.6429 124.956 11.6429C123.776 11.6429 123.494 11.387 123.758 10.5589C123.949 9.96281 124.259 8.73796 124.447 7.83701C124.843 5.94394 125.796 5.63092 125.808 7.38994ZM37.9667 13.6843V18.4476H40.2333H42.5V15.7257V13.0038L45.475 13.0025C48.514 13.0018 52.1611 11.3415 52.5719 9.7716C52.7419 9.12107 51.0527 8.92101 45.3804 8.92101H37.9667V13.6843Z"
+                          fill="white"/>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
