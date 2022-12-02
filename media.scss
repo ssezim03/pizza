@@ -42,7 +42,8 @@
     display: none;
   }
   #header .header--block__menu--select {
-    margin: 0 0 0 450px;
+    margin: 0 0 0 390px;
+    width: 29%;
   }
   .burger{
     display: block;
@@ -72,10 +73,16 @@
   #header .header--block__time--search {
     width: 90%;
     height: 32px;
-
+    margin: 15px 0;
+  }
+  #header .header--block__menu {
+    margin: 20px 0;
   }
 }
 @media (max-width: 576px) {
+  #header .header--block__menu {
+    margin: 20px 0;
+  }
   #question .question--accordion {
     width: 90%;
   }
@@ -107,12 +114,24 @@
   #header .header--block__time--search {
     width: 90%;
     height: 32px;
-
+    margin: 10px 0;
   }
 }
 @media (max-width: 450px) {
   #header .header--block__menu--select {
-    margin: 0 0 0 236px;
+    width: 50%;
+  }
+  #header .header--block__time--search {
+    margin: 20px 0;
+  }
+  #card .card--block__select {
+    margin: 20px 0;
+  }
+  #header .header--block__menu--select {
+    margin: 0 0 0 125px;
+  }
+  #header .header--block__menu {
+    margin: 20px 0;
   }
   .burgerLine {
     left: 84%;
@@ -161,6 +180,10 @@
 
 }
 @media (max-width: 400px) {
+  #card .card--block__select {
+    width: 39%;
+    margin: 20px;
+  }
   #header .header--block__time--search {
     width: 90%;
     height: 32px;
@@ -175,5 +198,19 @@
   }
   #hero .marquee-infinite .pizza {
     font-size: 4px;
+  }
+  #header .header--block__menu--select {
+
+    width: 50%;
+  }
+  #header .header--block__time {
+    padding: 10px 0 10px 0;
+
+  }
+  #header .header--block__time--search {
+    margin: 10px 0;
+  }
+  #card .card--block__select {
+    margin: 10px 0;
   }
 }
